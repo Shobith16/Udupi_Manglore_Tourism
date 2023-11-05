@@ -1,0 +1,842 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/Main_img.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 86%;
+    overflow: hidden;
+}
+nav{
+    height: 6vh;
+    width: 98.5%;
+    display: flex;
+  
+    align-items: center;
+    padding: 10px;
+
+    background:transparent;
+}
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(219, 215, 215);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 5%;
+}
+nav input{
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    width: 20%;
+    background-color: whitesmoke;
+    /* color: aliceblue; */
+    border-radius: 10px;
+    border: 1px solid white;
+}
+nav input:active{
+    border: 1px solid white;
+}
+.log{
+    position: relative;
+    left: 48%;
+    width: 22%;
+    height: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;  
+    /* z-index: ;      */
+    background-color: rgba(0, 0, 0, .5);
+    /* background-color: rgba(103, 74, 17, 0.559); */
+}
+#srch{
+    position: relative;
+    top: 10px;
+}
+#login{
+    color: rgb(250, 247, 247);
+}
+#lgin{
+    position: relative;
+    bottom: 1vh;
+    /* left: .5vw; */
+}
+#profile_image{
+    position: relative;
+    right: 12px;
+}
+.about{
+    width: 30%;
+    height: 45%;
+    position: relative;
+    left: 7%;
+    top: 10%;
+    padding:7%;
+    color: azure;
+    /* background-color:aliceblue; */
+}
+.about small{
+    letter-spacing: 5px;
+    color: rgb(251, 251, 53);
+    /* margin: 10px; */
+    width: 50%;
+    /* height: 10%; */
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.about small .line{
+    width: 5vw;
+    
+    background-color: rgb(218, 218, 23);
+}
+.sm1{
+    position: relative;
+    left: 20%;
+}
+.l1{
+    position: relative;
+    right: 18%;
+    top: 3%;
+    height: 2px;
+}
+.l2{
+    position: relative;
+    left: 25%;
+    bottom:2.5%;
+    width: 5vw;
+    height: 1.5px;
+}
+
+.about p ,h1{
+    /* margin: 10px; */
+    font-family: "Proxima Nova", Verdana, "Avenir Next";
+    width: 100%;
+    padding: 10px;
+   
+}
+#par{
+    /* margin: 10px; */
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.places{
+    width: 50%;
+    height: 70%;
+    float: right;
+    position: relative;
+    right: 5%;
+    bottom: 70%;
+    
+    /* background-color: antiquewhite; */
+}
+.social{
+    position: relative;
+    left: 13%;
+    padding: 10px;
+    height: 8%;
+    width: 20%;
+    /* background-color:gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+    width: 13%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 100%;
+    /* background-color:wheat; */
+    border:1px solid white;
+}
+.a img{
+    position: relative;
+    left: 20%;
+    top: 2px;
+}
+.i3:hover{
+    background-color:rgb(0,100,139);
+}
+.i2:hover{
+    background-color:rgb(24, 52, 111);
+}
+.i1:hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.place1{
+    width: 35%;
+    height: 85%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding: 10px;
+    background-image: url(../images/download.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(180%)  brightness(80%);
+    /* border-radius: 10px; */
+    opacity: 90%;
+}
+.place2{
+    width: 35%;
+    height: 85%;
+    position: relative;
+    bottom: 79%;
+    left: 50%;
+    padding: 10px;
+    background-image: url(../images/mysterious-forest-landscape.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    filter: saturate(180%) brightness(80%);
+    /* border-radius: 10px; */
+    opacity: 90%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+
+}
+.p{
+    position: relative;
+    top: 22vh;
+    width: 90%;
+    height:60%;
+    padding: 10px;
+    /* background-color: aqua; */
+    color: aliceblue;
+
+}
+.p ,h1{
+    color: azure;
+    
+}
+.p ,p{
+    color: azure;
+    font-size: small;
+    
+}
+.p small {
+    font-weight: 600;
+
+}
+/* #par2{width:12vw;} */
+
+@keyframes fadeIn
+{
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+         }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.container2{
+    opacity: 100;
+    animation: fadeIn 1s ease;
+    width: 100%;
+    height: 300vh;
+    background-color: rgb(249, 250, 251);
+}
+
+
+
+.culture{
+    /* display: grid;
+    grid-template-columns:auto auto auto ; */
+    /* grid-gap:0px; */
+    
+    height:10vh;
+    /* width: 90%; */
+}
+
+.container2 h1{
+    position: relative;
+    top: 2%;
+    width: 98.5%;
+    text-align: center;
+    color:transparent;
+    font-size: 3em;
+    -webkit-text-stroke:2px #f09433;
+}
+.container2 h2{
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    position: relative;
+    left: 4%;
+    top: 6%;
+    width: 10%;
+    color:#dc2743;
+    font-size: 2em;
+    -webkit-text-stroke:1px #4e4d4c;
+}
+.cards{
+    overflow: hidden;
+    position: relative;
+    /* left:24%; */
+    top:20%;
+    margin: 10px;
+    
+    height:50vh;
+     width: 20vw;
+     border-radius: 10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* padding: 10px; */
+    background-color: white;
+    cursor: pointer;
+
+}
+.cards img{
+     border-radius: 10px; 
+     width: 100%; 
+     height: 100%; 
+}
+
+.card-content{
+    position: relative;
+    bottom: 51vh;
+    /* left: 10%; */
+    color: black;
+    padding: 20px;
+    width: 90%;
+    height: 90%;
+    opacity: 0;
+    /* transform: translateX(-300px); */
+    transition: all 2s ease-out;
+   
+}
+.card-content:hover{
+    /* transform: translateX(0px); */
+    opacity: 100%;
+    background-color:rgba(0, 0, 0, 0.363);
+    background-size: cover;
+
+}
+.crd1{
+    position: relative;
+    top: 32vh;
+    left:5%;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+
+    color: #4e4d4c;
+    /* background-color: #f09433; */
+    padding: 5%;
+    width: 30%;
+    /* height: 22vh; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.crd1 p{
+    color: black;
+}
+.crd2{
+    position: relative;
+    top: 65vh;
+    right:10%;
+    float: right;
+    border-radius: 10px;
+
+    color: #4e4d4c;
+    background-color: white;
+
+    /* background-color: #f09433; */
+    padding: 5%;
+    width: 30%;
+    /* height: 90%; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.crd2 p{
+    color: black;
+}
+.crd3{
+    position: relative;
+    top: 110vh;
+    left:5%;
+    float: left;
+    border-radius: 10px;
+    color: #4e4d4c;
+    background-color: white;
+    /* background-color: #f09433; */
+    padding: 5%;
+    width: 30%;
+    /* height: 90%; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.crd3 p{
+    color: black;
+}
+.card-content h3{
+    color: white;
+
+}
+ .c1{
+    /* background-image: url(../images/yakshaga.webp);
+    background-position: center;
+    background-size: cover; */
+    float: right;
+    position: relative;
+    right:10%;
+    top: 30vh;
+}
+.c2{
+    /* background-image: url(./images/kola2.jpeg);
+    background-position: center;
+    background-size: cover; */
+    float: left;
+    position: relative;
+    right:35%;
+    top: 115vh;
+}
+.c3{
+    /* background-image: url(./images/tuluallinone.jpg);
+    background-position: center;
+    background-size: cover; */
+    float: right;
+    position: relative;
+    left:30%;
+    top: 160vh;
+} 
+.crd_btn{
+    border-radius:6px;
+    padding:1.5%;
+    /* cursor: pointer; */
+    
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.crd_btn a{
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+.container3{
+    width: 100%;
+    height:200vh;
+    background-color: white;
+    /* background-color: rgb(208, 85, 85); */
+}
+/* .innercontent3{
+    width: 60%;
+    background-color: #4e4d4c;
+} */
+
+.placestovisit{
+    position: relative;
+    /* top: 5%; */
+    bottom: 12%;
+    right: 2%;
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    width: 60%;
+    float: right;
+    padding: 2%;
+    /* grid-gap:0px; */
+    
+    /* height:0vh; */
+}
+/* .placestovisit2{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    /* grid-gap:0px; 
+    
+    height:10vh;
+} */
+.pcards{
+    overflow: hidden;
+    position: relative;
+    left:4%;
+    
+    top:2%;
+    /* margin: 10px; */
+    
+    height:50vh;
+     width: 18vw;
+     border-radius: 10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* padding: 10px; */
+    background-color: white;
+    cursor: pointer;
+
+}
+.pcards img{
+    border-radius: 10px;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.pcards2{
+    overflow: hidden;
+    position: relative;
+    left:24%;
+    
+    top:100vh;
+    /* margin: 10px; */
+    
+    height:50vh;
+     width: 20vw;
+     border-radius: 10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* padding: 10px; */
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.pcards2 img{
+    border-radius: 10px;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.container3 h1{
+    /* color: black; */
+    position: relative;
+    top: 3%;
+    width: 98.5%;
+    text-align: center;
+    font-size: 3em;
+    color:transparent;
+    -webkit-text-stroke:2px #f09433;
+}
+#udp{
+    position: relative;
+    top: 14vh;
+    left: 4vw;
+    width: 30%;
+    color:#dc2743;
+    font-size: 2em;
+    -webkit-text-stroke:1px #4e4d4c;
+}
+#mang{
+    position: relative;
+    top: 90vh;
+    left: 8vw;
+    color:#dc2743;
+    font-size: 2em;
+    -webkit-text-stroke:1px #4e4d4c;
+}
+.paragh{
+    width: 20%;
+    position: relative;
+    top: 40vh;
+    left: 4vw;
+    padding: 2%;
+
+    /* height: 100%; */
+}
+.paragh h2{
+    font-size: 4em;
+    color: transparent;
+    -webkit-text-stroke:2px #311d26ed;
+}
+#parbha{
+    position: relative;
+    bottom: 80vh;
+    left: 5vw;
+}
+
+.pc2{
+    margin-bottom: 100px;
+}
+.feed{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #76463759; */
+}
+.feed-back{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 2%;
+   position: relative;
+   right: 10%;
+   top: 10%;
+   color: rgb(12, 13, 13);
+}
+input{
+    margin-bottom:20px;
+    width: 20vw;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid rgb(18, 17, 17);
+}
+textarea{
+    padding: 5%;
+    width: 20vw;
+    border-radius: 10px;
+    border: 1px solid rgb(21, 20, 20);
+}
+#submit{
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+    height: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border: 1px solid rgb(55, 255, 0);
+    background-color: rgb(55, 255, 0);
+}
+footer{
+    width: 100%;
+    height:40vh;
+    /* background-image: url(./images/tulubanner1.png);
+    background-size: cover; */
+    /* background-position: center; */
+}
+#fdimg{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.container2 .places{
+    display: none;
+
+}
+@media only screen and (max-width:768px){
+    .culture{
+    display: grid;
+    grid-template-columns:auto;
+    /* grid-gap: 10px; */
+    
+}
+.cards{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    position: relative;
+    left:6%;
+    top:22%;
+    margin: 10px;
+    /* align-content: center; */
+    height:30vh;
+     width: 80vw;
+     border-radius: 10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* padding: 10px; */
+    background-color: white;
+    cursor: pointer;
+
+}
+.cd{
+    position: relative;
+    top: 20%;
+    left: 2%;
+    width: 86%;
+}
+.container{
+    padding-bottom: 10%;
+    position: relative;
+    left: 0%;
+}
+.container .places{
+    display: none;
+
+}
+.about{
+    width: 80%;
+    height: 45%;
+   
+    padding:0%;
+    color: azure;
+    /* background-color:aliceblue; */
+}
+.social{
+    position: relative;
+    left: 3%;
+    top:30%;
+    padding: 5px;
+    height: 6%;
+    width: 60%;
+}
+.about small .line{
+    width: 15%;
+    /* background-color:coral; */
+}
+
+.l2{
+    position: relative;
+    left: 40%;
+    /* width: 40%; */
+    height: 2.5px;
+}
+.container2 .places{
+    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1%;
+    width: 100%;
+    /* height: 60%; */
+    padding: 0%;
+    float: left;
+    position: absolute;
+    left: 0%;
+    top: 106vh;
+    background-color: #4e4d4c;
+    /* margin:  auto; */
+}
+.container2 .Place1{
+    /* margin-left: 5%; */
+    width: auto;
+    /* height: auto; */
+    background-color: #e6683c;
+    position: relative;
+    /* bottom:0%; */
+    left: 0%;
+}
+.container2 .places h1{
+    font-size:1.8em;
+}
+.cont-2-heading{
+    position: relative;
+    top: 25%;
+}
+.cont-2-heading h1{
+    position: relative;
+    right: 6%;
+}
+.cont-2-heading h2{
+    position: relative;
+    left: 4%;
+    top: 2vh;
+}
+.culture{
+    position: relative;
+    top: 26%;
+}
+.container2 .places .Place2{
+    /* margin-left: 5%; */
+    width: 50vw;
+    height: auto;
+    position: relative;
+    
+}
+nav{
+    height: 6vh;
+    width: 1%;
+    /* display: block; */
+  
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    top: 2%;
+    left: 0%;
+
+    background:rgb(7, 210, 51);
+}
+.container3{
+    position: relative;
+    top: 15vh;
+}
+.container3 h1{
+    width:70%;
+    position: relative;
+    left: 10%;
+
+}
+#udp{
+    width: 100%;
+    position: relative;
+    left: 20%;
+}
+.paragh{
+    position: relative;
+    top: 10%;
+    width: 100%;
+}
+.placestovisit{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    float: left;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+}
+.pcards{
+    
+    position: relative;
+    left:0%;
+    
+    top:4%;
+    overflow-y: scroll;
+    
+    height:50vh;
+     width: 45vw;
+     border-radius: 10px;
+    
+
+}
+.pcards img{
+    height: 65vh;
+}
+.card-content {
+    position: relative;
+    bottom: 65vh;
+    height: auto;
+    /* color: rgb(16, 13, 13); */
+}
+.pc2{
+    margin-bottom: 0px;
+}
+.feed{
+    position: relative;
+    top: 60vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    /* height: 100; */
+    background-color:bisque;
+}
+.feed-back{
+    
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    padding: 5%;
+    height: 60vh;
+   position: relative;
+   left:-10%;
+   top: 10%;
+   /* background-color: #cc2366; */
+   color: rgb(12, 13, 13);
+}
+.feed-back input,textarea,button{
+    width: 80%;
+    
+    position: relative;
+    left: 5%;
+}
+#submit{
+    height: 6vh;
+    position: relative;
+    left: 10%;
+}
+footer{
+    position: relative;
+    top: 50vh;
+}
+}
