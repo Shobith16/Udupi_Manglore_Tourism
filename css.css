@@ -759,16 +759,26 @@ nav{
 
 }
 #udp{
-    width: 100%;
+    width: 70%;
     position: relative;
     left: 20%;
+}
+.p h1{
+    width: 70%;
+    margin-bottom: 20px;
 }
 .paragh{
     position: relative;
     top: 10%;
-    width: 100%;
+    width: 90%;
+}
+.paragh h2{
+    
+    width: 70%;
 }
 .placestovisit{
+    width: 96%;
+    /* height: 100%; */
     position: relative;
     top: 10%;
     left: 0%;
