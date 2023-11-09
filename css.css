@@ -616,6 +616,23 @@ footer{
 
 }
 @media only screen and (max-width:768px){
+    #srch{
+        display: none;
+    }
+    .log{
+        width: 140px;
+    }
+    #lgin{
+        position: relative;
+        bottom: 11px; 
+        left: 5px;
+    }
+    #profile_image{
+        position: relative;
+        top: 10px;
+        right: 16px;
+        width: 16px;
+    }
     .culture{
     display: grid;
     grid-template-columns:auto;
@@ -846,7 +863,11 @@ nav{
     left: 10%;
 }
 footer{
+    height: fit-content;
     position: relative;
     top: 50vh;
+}
+footer img{
+    height: 70%;
 }
 }
