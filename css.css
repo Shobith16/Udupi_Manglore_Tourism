@@ -524,6 +524,7 @@ nav input:active{
     width: 30%;
     color:#dc2743;
     font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
     -webkit-text-stroke:1px #4e4d4c;
 }
 #mang{
@@ -807,9 +808,10 @@ nav{
 
 }
 #udp{
-    width: 70%;
+    width: 80%;
     position: relative;
-    left: 15%;
+    left: 14%;
+    
 }
 .p h1{
     width: 70%;
@@ -825,14 +827,16 @@ nav{
     width: 70%;
 }
 .placestovisit{
-    width: 96%;
-    /* height: 100%; */
+    /* background-color: #4e4d4c; */
+    width: 90%;
+    height: fit-content;
     position: relative;
     top: 10%;
-    left: 0%;
+    display: block;
     float: left;
-    grid-template-columns: auto auto;
-    grid-gap: 5%;
+    padding: 5%;
+    grid-template-columns: auto ;
+    
 }
 .pcards{
     
@@ -840,12 +844,12 @@ nav{
     left:0%;
     
     top:4%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     
     height:50vh;
-     width: 45vw;
+     width: fit-content ;
      border-radius: 10px;
-    
+     margin: 10px;
 
 }
 .pcards img{
