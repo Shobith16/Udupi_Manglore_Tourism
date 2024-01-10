@@ -619,6 +619,10 @@ footer{
     display: none;
 
 }
+#note-for-Mobile-view{
+    display: none;
+    color: #dc2743;
+}
 @media only screen and (max-width:768px){
     #srch{
         display: none;
@@ -807,6 +811,10 @@ nav{
     left: 10%;
 
 }
+#note-for-Mobile-view{
+    display: block;
+    /* color: #dc2743; */
+}
 #udp{
     width: 80%;
     position: relative;
@@ -871,20 +879,20 @@ nav{
     grid-template-columns: auto auto;
     width: 100%;
     height: 100vh;
-    background-color:bisque;
+    background-color:burlywood;
 }
 .feed-back{
     
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    width: 70vw;
     padding: 5%;
-    height: 60vh;
+    height: 50vh;
    position: relative;
-   left:-50%;
+   left:-55%;
    top: 30%;
    /* background-color: #cc2366; */
-   color: rgb(12, 13, 13);
+   color:black;
 }
 #fdimg{
     position: relative;
